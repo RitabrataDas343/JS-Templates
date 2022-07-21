@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Processes</title>
+</head>
+<body>
+    <p> 
+        <div id="new"></div><br>
+        <button onclick="func()">Click me</button><br>
+        <button onclick="hello()">Click me</button><br>
+        <button onclick="hi()">Click me</button><br>
+        <button onclick="zero()">Click me</button><br>
+    </p>
+</body>
+<script>
+    let parseNew = document.getElementById("new");
+    function func(){
+        parseNew.innerHTML = "Welcome!!";
+        parseNew.style.color = "magenta";
+    }
+
+    function hello(){
+        document.write(5+6);
+    }
+
+    function hi(){
+        func();
+        console.log("Hi");
+    }
+
+    function zero(){
+        window.alert(5+6);
+    }
+
+</script>
+</html>
