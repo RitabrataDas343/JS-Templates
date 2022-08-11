@@ -1,3 +1,3 @@
 ## JS Templates
 
-Changed via Github
+Changed via Github CLI
