@@ -27,3 +27,6 @@ console.log(m);
 
 m = str.substr(-4, 2);
 console.log(m);
+
+m = str.substr(-4, 2).substring(0, 1);
+console.log(m);
